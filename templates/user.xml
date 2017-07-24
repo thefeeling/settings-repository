@@ -7,12 +7,13 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="afb" value="($arg$) =&gt; {&#10;    $desc$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+  <template name="afb" value="($arg$) =&gt; {&#10;    $desc$&#10;}" description="" toReformat="true" toShortenFQNames="false">
     <variable name="arg" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="gf" value="function* ($arguments$) {&#10;  $desc$&#10;}" description="" toReformat="false" toShortenFQNames="true">

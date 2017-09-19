@@ -177,10 +177,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('$TEXT$', () =&gt; {&#10;  $DESCRIBE$&#10;})" description="it('TEXT')" toReformat="false" toShortenFQNames="true">
-    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="DESCRIBE" expression="" defaultValue="" alwaysStopAt="true" />
-  </template>
   <template name="gwt" value="// Given&#10;// When&#10;// Then" description="Given ~ When ~ Then" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />

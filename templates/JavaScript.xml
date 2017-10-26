@@ -1,4 +1,7 @@
 <templateSet group="JavaScript">
+  <template name="us" value="'use strict';&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
   <template name=":" value="$key$: $value$" description="key_value" toReformat="false" toShortenFQNames="true">
     <variable name="key" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
@@ -73,7 +76,7 @@
       <option name="JSX_HTML" value="false" />
     </context>
   </template>
-  <template name="desc" value="describe('$TEXT$', () =&gt; {&#10;  it('$IT$', () =&gt; {&#10;    // Given&#10;    $DESCRIBE$&#10;    // When&#10;    // Then&#10;  })&#10;})" description="describe('TEST')" toReformat="false" toShortenFQNames="true">
+  <template name="desc" value="describe('$TEXT$', () =&gt; {&#10;  it('$IT$', () =&gt; {&#10;    // Given&#10;    $DESCRIBE$&#10;    // When&#10;    // Then&#10;  });&#10;});" description="describe('TEST')" toReformat="false" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESCRIBE" expression="" defaultValue="" alwaysStopAt="true" />

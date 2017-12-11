@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'ddocdoc-pikachu-server'" />
-    <option name="defaultScopeName" value="Project 'ddocdoc-pikachu-server'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'ddocdoc-pikachu-server'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
